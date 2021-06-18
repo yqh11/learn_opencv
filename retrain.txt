@@ -1,0 +1,5 @@
+python tensorflow-master/hub-master/examples/image_retraining/retrain.py --bottleneck_dir retrain/bottleneck --how_many_training_steps 200 --model_dir inception_model/ --output_graph car_graph.pb --output_labels car_labels.txt --image_dir retrain_car/data/images/
+
+
+
+python tensorflow-master/hub-master/examples/image_retraining/retrain.py --bottleneck_dir retrain/bottleneck --how_many_training_steps 200 --model_dir inception_model/ --output_graph flowers_graph.pb --output_labels flowers_labels.txt --image_dir retrain/flower_photos/
